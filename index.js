@@ -4,7 +4,7 @@ class Agable{
     }
     age() {
         const currentYear = new Date().getFullYear();
-        return currentYear = this.year;
+        return currentYear - this.year;
     }
 }
 
